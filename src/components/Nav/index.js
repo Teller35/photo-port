@@ -20,7 +20,7 @@ function Nav() {
   return (
     <header data-testid="header" className="flex-row px-1">
       <h2>
-        <a href="/">
+        <a data-testid="link" href="/">
           <span role="img" aria-label="camera">
             📸
           </span>
@@ -30,7 +30,7 @@ function Nav() {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a href="#about">About me</a>
+            <a data-testid="about" href="#about">About me</a>
           </li>
           <li className={"mx-2"}>
             <span>Contact</span>
